@@ -27,6 +27,7 @@
     flex-basis: 50%;
 }
 
+
 .textpart p {
     margin-top: 10px;
 }
@@ -34,7 +35,9 @@
 
 
 @media screen and (max-width: 960px) {
-    img {
+    
+
+    .imgpart img {
         width: auto;
         height: 300px;
     }
