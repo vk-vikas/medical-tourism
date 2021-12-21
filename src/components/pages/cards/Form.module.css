@@ -1,0 +1,41 @@
+.container img {
+    height: 450px;
+    width: 450px;
+    margin: 0 ;
+}
+
+.imgpart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+}
+
+.container {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+
+.textpart {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.textpart p {
+    margin-top: 10px;
+}
+
+
+
+@media screen and (max-width: 960px) {
+    img {
+        width: auto;
+        height: 300px;
+    }
+}

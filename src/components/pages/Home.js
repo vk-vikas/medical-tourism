@@ -1,10 +1,12 @@
 import React from 'react'
+import Form from './cards/Form';
+import Hero from './cards/Hero';
 
 function Home() {
     return (
-        <div>
-            <h1>Home Page</h1>
-            
+        <div >
+        <Hero />
+        <Form />
         </div>
     )
 }
