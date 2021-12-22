@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #0A043C;
+    background-color: #A2DBFA;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@
   }
   
   .nav-logo {
-    color: white;
+    color: black;
     align-items: center;
     margin-left: 20px;
     cursor: pointer;
@@ -38,7 +38,7 @@
   }
   
   .nav-links {
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
@@ -64,17 +64,26 @@
   
   .nav-item:hover:after {
     width: 100%;
-    background: salmon;
+    background: black;
   }
   
   .nav-item .active {
-    color: salmon;
-    border: 1px solid salmon;
+    color: black;
+    border: 1px solid black;
   }
   
   .nav-icon {
     color: black;
     display: none;
+  }
+
+  .btn button{
+    background-color: salmon;
+    margin-right: 15px;
+    padding: 3px;
+    font-size: 1.2rem;
+    cursor: pointer;
+
   }
   
   @media screen and (max-width: 960px) {
@@ -82,7 +91,7 @@
       display: flex;
       flex-direction: column;
       width: 100%;
-      border-top: 1pxsolid #fff;
+      border-top: 1pxsolid black;
       position: absolute;
       top: 80px;
       left: -110%;
@@ -90,8 +99,12 @@
       transition: all 0.5s ease;
     }
   
+    .btn button {
+      margin-right: 60px;
+    }
+
     .nav-menu.active {
-      background: #0A043C;
+      background: #A2DBFA;
       left: 0px;
       opacity: 1;
       transition: all 0.5s ease;
@@ -101,6 +114,7 @@
       color: salmon;
       border: none;
     }
+
     .nav-links {
       padding: 1.5rem;
       width: 100%;
@@ -115,7 +129,7 @@
       transform: translate(-100%, 60%);
       font-size: 1.8rem;
       cursor: pointer;
-      color: white;
+      color: black;
     }
   }
   

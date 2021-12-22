@@ -1,0 +1,43 @@
+.body {
+    background-color: #A2DBFA;
+    padding: 40px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.element img {
+    width: 50px;
+    height: 50px;
+    margin: 15px 0;
+    
+}
+
+/*  write media query to make ele colum wise flex*/
+
+
+@media screen and (max-width: 960px) {
+   .container {
+       display: flex;
+       flex-direction: column;
+       
+   }
+}

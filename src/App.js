@@ -5,6 +5,7 @@ import  Home  from "./components/pages/Home";
 import About from "./components/pages/About";
 import Help from './components/pages/Help';
 import  ContactUS  from "./components/pages/ContactUs";
+import Assistance from "./components/pages/Assistance";
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Route path="/about" component={About} />
             <Route path="/help" component={Help} />
             <Route path="/contactus" component={ContactUS} />
+            <Route path="/assistance" component={Assistance} />
           </Switch>
         </div>
       </Router>

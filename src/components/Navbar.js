@@ -15,6 +15,9 @@ function Navbar() {
             <i className="fas fa-code"></i>
           </NavLink>
 
+          <NavLink exact to="/assistance" className="btn">
+            <button>Get Assistance</button>
+          </NavLink>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <NavLink
