@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
+import finallogo from "./pages/images/Finallogo.svg";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -8,11 +9,10 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   return (
     <>
-      <nav className="navbar">
+      <nav className="mynavbar">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-            Company Name
-            <i className="fas fa-code"></i>
+            <img src={finallogo} className="finallogo"></img>
           </NavLink>
 
           <NavLink exact to="/assistance" className="btn">
@@ -33,23 +33,34 @@ function Navbar() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/about"
+                to="/whyus"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                About
+                Why Us
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
                 exact
-                to="/help"
+                to="/hospital"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                Help
+                Hospitals
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/treatment"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Treatment
               </NavLink>
             </li>
             <li className="nav-item">

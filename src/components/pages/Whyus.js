@@ -1,11 +1,11 @@
 import React from 'react'
 
-function About() {
+function Whyus() {
     return (
         <div>
-            <h1>About Page</h1>
+            <h1>Whyus page</h1>
         </div>
     )
 }
 
-export default About
+export default Whyus

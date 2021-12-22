@@ -1,4 +1,4 @@
-.navbar {
+.mynavbar {
     background-color: #A2DBFA;
     height: 80px;
     display: flex;
@@ -20,13 +20,10 @@
   }
   
   .nav-logo {
-    color: black;
+    
     align-items: center;
-    margin-left: 20px;
+    margin-left: 10px;
     cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    font-weight: 500;
     flex-grow: 1;
   }
   
@@ -48,6 +45,11 @@
     margin-left: 1rem;
   }
   
+  .finallogo {
+    width: 200px;
+    height: 200px;
+    
+  }
   .nav-item {
     line-height: 40px;
     margin-right: 1rem;
@@ -80,12 +82,22 @@
   .btn button{
     background-color: salmon;
     margin-right: 15px;
-    padding: 3px;
+    padding: 8px;
     font-size: 1.2rem;
     cursor: pointer;
+    transition-duration: 0.4s;
+    border-style: none;
+    margin-bottom: 15px;
 
   }
   
+  
+  .btn button:hover {
+    background-color: white;
+    color: salmon;
+    border: 1px solid red;
+  }
+
   @media screen and (max-width: 960px) {
     .nav-menu {
       display: flex;
@@ -101,8 +113,12 @@
   
     .btn button {
       margin-right: 60px;
+      font-size: 0.7rem;
+      margin-bottom: 0;
+      padding: 4px;
     }
 
+   
     .nav-menu.active {
       background: #A2DBFA;
       left: 0px;
