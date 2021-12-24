@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/medical-tourism/static/css/main.871c75e9.css",
+    "main.css": "/medical-tourism/static/css/main.849b1b40.css",
     "main.js": "/medical-tourism/static/js/main.09606ee3.js",
     "static/media/CtScan.png": "/medical-tourism/static/media/CtScan.11e3b12fffb743b9b69e.png",
     "static/media/contactus.png": "/medical-tourism/static/media/contactus.3061347fc8de8c8b2695.png",
@@ -23,11 +23,11 @@
     "static/media/wockhardt.png": "/medical-tourism/static/media/wockhardt.35bba0d2964b8d9c8f07.png",
     "static/media/Finallogo.svg": "/medical-tourism/static/media/Finallogo.b70573625b4751688f72844fe3788f68.svg",
     "index.html": "/medical-tourism/index.html",
-    "main.871c75e9.css.map": "/medical-tourism/static/css/main.871c75e9.css.map",
+    "main.849b1b40.css.map": "/medical-tourism/static/css/main.849b1b40.css.map",
     "main.09606ee3.js.map": "/medical-tourism/static/js/main.09606ee3.js.map"
   },
   "entrypoints": [
-    "static/css/main.871c75e9.css",
+    "static/css/main.849b1b40.css",
     "static/js/main.09606ee3.js"
   ]
 }
