@@ -6,7 +6,7 @@ import emailjs from 'emailjs-com';
 function Assistance() {
   
   const HandleSubmit = (e) => {
-    // e.target.value = "";
+    
     document.querySelectorAll('input').target.value="";
     e.preventDefault();
     // emailjs.sendForm('service_l0fyhn9','template_jns18j6',e.target,'user_Otxk1ZNu8U1u095uL0LCs')
@@ -38,7 +38,7 @@ function Assistance() {
           <input type="text" name="city" ></input>
           <label>phone number</label>
           <input type="text" name="number"></input>
-          <input type="submit" value="send"></input>
+          <input type="submit" value="send" className={styles.submitbtn}></input>
           {/* <button >Submit</button> */}
         </form>
       </div>

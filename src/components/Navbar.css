@@ -1,5 +1,5 @@
 .mynavbar {
-    background-color: #A2DBFA;
+    background-color: #D7E9F7;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -40,6 +40,7 @@
     padding: 0.5rem 1rem;
     height: 100%;
     border-bottom: 3px solid transparent;
+    font-weight: 500;
   }
   .fa-code {
     margin-left: 1rem;
@@ -66,12 +67,13 @@
   
   .nav-item:hover:after {
     width: 100%;
-    background: black;
+    background: salmon;
+   
   }
   
   .nav-item .active {
-    color: black;
-    border: 1px solid black;
+    color: #781D42;
+    border: 2px solid #781D42
   }
   
   .nav-icon {
@@ -80,7 +82,7 @@
   }
 
   .btn button{
-    background-color: salmon;
+   
     margin-right: 15px;
     padding: 8px;
     font-size: 1.2rem;
@@ -88,14 +90,23 @@
     transition-duration: 0.4s;
     border-style: none;
     margin-bottom: 15px;
+    color: white;
+    background-color: #027ad6;
+    box-shadow:
+		0 1px 2px rgba(0,0,0,0.07), 
+		0 2px 4px rgba(0,0,0,0.07), 
+		0 4px 8px rgba(0,0,0,0.07), 
+		0 8px 16px rgba(0,0,0,0.07),
+		0 16px 32px rgba(0,0,0,0.07), 
+		0 32px 64px rgba(0,0,0,0.07);
 
   }
   
   
   .btn button:hover {
     background-color: white;
-    color: salmon;
-    border: 1px solid red;
+    color: #027ad6;
+    border: 2px solid #027ad6;
   }
 
   @media screen and (max-width: 960px) {
@@ -120,7 +131,7 @@
 
    
     .nav-menu.active {
-      background: #A2DBFA;
+      background: #D7E9F7;
       left: 0px;
       opacity: 1;
       transition: all 0.5s ease;

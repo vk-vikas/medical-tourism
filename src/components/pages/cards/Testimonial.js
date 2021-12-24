@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import Carousel from "react-bootstrap/Carousel";
 import styles from "./Testimonial.module.css";
+import pic from "../hospital_images/batra.png";
 
 export default function Testimonial() {
   return (
@@ -9,6 +10,7 @@ export default function Testimonial() {
       <Carousel variant="dark">
         <Carousel.Item>
           <div className={styles.slide}>
+          <img src={pic}></img>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
               sodales lacus nisl, tristique porttitor libero dictum ac.
@@ -30,10 +32,12 @@ export default function Testimonial() {
               tristique vitae efficitur eu, congue sed eros.
             </p>
             <h1>slide 1</h1>
+            
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className={styles.slide}>
+          <img src={pic}></img>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
               sodales lacus nisl, tristique porttitor libero dictum ac.
@@ -59,6 +63,7 @@ export default function Testimonial() {
         </Carousel.Item>
         <Carousel.Item>
           <div className={styles.slide}>
+          <img src={pic}></img>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
               sodales lacus nisl, tristique porttitor libero dictum ac.

@@ -2,6 +2,7 @@
     height: 400px;
     width: 400px;
     margin: 0;
+    
 }
 
 .container {
@@ -11,13 +12,16 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #A2DBFA;
+     /*yt color*/
+    /* background-color: #1c2237; */
+    background-color: #D7E9F7;
 }
 
 .textpart {
     color: black;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     flex-basis: 50%;
 }
@@ -27,7 +31,8 @@
 }
 
 .textpart h1 {
-    color: navy;
+    color: black;
+    
 }
 
 @media screen and (max-width: 960px) {

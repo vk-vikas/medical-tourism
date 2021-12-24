@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 80%; */
+    padding: 50px 150px;
+    background-color: #D7E9F7;
+}
+
+.whyus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+
+@media screen and (max-width: 960px) {
+    .services {
+        padding: 40px 30px;
+    }
+}

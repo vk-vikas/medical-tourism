@@ -14,7 +14,7 @@ function Hospitals() {
         <h1>Hospitals</h1>
         <p>jdfsd sadfjsdfj dsfsa sfjslkfjaslkfjaskljflsakfjslfjs
         sfsalfjlasf sfsfas lksj faslk fasf dkfjs dsfjlk slkjs lkjsfsf</p>
-        <Link exact to="/contactus">
+        <Link exact to="/hospital">
           <button>See Hospitals</button>
         </Link>
       </div>
@@ -27,8 +27,8 @@ function Hospitals() {
         <h1>Treatment</h1>
         <p>jdfsd sadfjsdfj dsfsa sfjslkfjaslkfjaskljflsakfjslfjs
         sfsalfjlasf sfsfas lksj faslk fasf</p>
-        <Link exact to="/contactus">
-          <button>See Hospitals</button>
+        <Link exact to="/treatment">
+          <button>See Treatments</button>
         </Link>
         
       </div>
